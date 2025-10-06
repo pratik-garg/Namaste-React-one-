@@ -83,6 +83,9 @@ Used only when you trust the other server and it explicitly allows such access.
 <script crossorigin="anonymous|use-credentials">
 
 
+
+
+  
 Q: What is difference between React and ReactDOM?
 A: React is a JavaScript library for building User Interfaces whereas ReactDOM is also JavaScript library that allows React to interact with the DOM. The react package contains React.createElement(), React.Component, React.Children, and other helpers related to elements and component classes. You can think of these as the isomorphic or universal helpers that you need to build components. The react-dom package contains ReactDOM.render(), and in react-dom/server we have server-side rendering support with ReactDOMServer.renderToString() and ReactDOMServer.renderToStaticMarkup().
 
