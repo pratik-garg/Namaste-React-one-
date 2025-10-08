@@ -1,0 +1,31 @@
+{
+  "name": "02_igniting_our_app",
+  "version": "1.0.0",
+  "description": "This is namaste React ",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratik-garg/Namaste-React-one-.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Pratik Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratik-garg/Namaste-React-one-/issues"
+  },
+  "homepage": "https://github.com/pratik-garg/Namaste-React-one-#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}

@@ -31,7 +31,7 @@ React gives you the flexibility to design your application as you wish, while Ne
 Q: What is CDN? Why do we use it?
 A: A content delivery network (CDN) refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content. The main use of a CDN is to deliver content through a network of servers in a secure and efficient way.
 
-⚡ Benefits of a CDN
+Q: Benefits of a CDN
 Benefit	Explanation
 🚀 Faster Load Time	Content is delivered from a nearby server → less latency.
 🧭 Global Reach	Users worldwide get the same speed.
@@ -47,7 +47,7 @@ Q: What is crossorigin in script tag?
 A: The crossorigin attribute sets the mode of the request to an HTTP CORS Request. The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains.
 
 
-What is an "Origin"?
+Q: What is an "Origin"?
 An origin simply means your website’s address, made of:
 Origin = Protocol + Domain + Port
 For example:
@@ -62,7 +62,7 @@ It says:
 A website can only talk to the same origin it came from.
 
 
-🧩 CORS = Cross-Origin Resource Sharing
+Q: CORS = Cross-Origin Resource Sharing
 It’s like asking for permission from another website before taking its data.
 Analogy:
 Imagine you’re a student from School A.
@@ -70,7 +70,7 @@ You want to borrow a book from School B’s library.
 You can’t just walk in — you need permission from School B.
 👉 That “permission” in the web world is CORS.
 
-⚙️ What Does crossorigin="anonymous" Mean?
+Q: What Does crossorigin="anonymous" Mean?
 It tells the browser:
 “Download this file, but don’t send cookies, tokens, or user info along with it.”
 This is the safe default for CDNs.
